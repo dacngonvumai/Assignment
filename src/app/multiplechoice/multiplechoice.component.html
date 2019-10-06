@@ -1,0 +1,92 @@
+<div class="container" style="padding-left: 20px;padding-right:20px">
+    <div class="row" style="margin:auto">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['']" style="font-weight: bold">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/gioithieu']" style="font-weight: bold">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/lienhe']" style="font-weight: bold">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="font-weight: bold">Góp ý</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="font-weight: bold">Hỏi đáp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/tracnghiem']" style="font-weight: bold" >Thi trắc nghiệm</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle">
+                                Tài khoản
+                            </a>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" [routerLink]="['/dangky']">Đăng ký</a>
+                                <a class="dropdown-item" [routerLink]="['/dangnhap']">Đăng nhập</a>
+                                <a class="dropdown-item" [routerLink]="['/quenmatkhau']">Quên mật khẩu</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Đăng xuất</a>
+                                <a class="dropdown-item" [routerLink]="['/doimatkhau']">Đổi mật khẩu</a>
+                                <a class="dropdown-item" [routerLink]="['/doitaikhoan']">Đổi tài khoản</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="col-12">
+            <div>
+                <img src="../../assets/mc.jpg" style="width: 100%">
+            </div>
+        </div>
+
+        <div class="col-12 mt-3">
+            <div class="row">
+                <div class="col-4" style="text-align:center;background-color: #f0d1e1">
+                    <h3>Question 1</h3>
+                    <p style="font-size:19px">Bạn đang theo học chuyên ngành nào ?</p>
+                </div>
+                <div class="col-8" style="background-color:#dcebf5">
+                    <h4>
+                        Seclect one:
+                    </h4>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Mạng máy tính
+                        </label>
+                    </div>
+                    <div class="form-check" style="padding-top:5px">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Nhúng
+                        </label>
+                    </div>
+                    <div class="form-check" style="padding-top:5px">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Lập trình website
+                        </label>
+                    </div>
+                    <div class="form-check" style="padding-top:5px">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Lập trình android
+                        </label>
+                    </div>
+                    <div style="padding-top:10px">
+                        <button type="button" class="btn btn-primary">Next Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>

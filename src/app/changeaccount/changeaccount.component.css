@@ -1,0 +1,42 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+    z-index: 1;
+    background-color:white;
+    
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+.left-c ul{
+    list-style-type: none;
+}
+.left-c ul li{
+    margin-top:20px;
+    
+}
+.left-c ul li a{
+    border:10px;
+    border-radius: 10px;
+}
+.ct-css{
+    font-size:25px;
+    padding-top:25px;
+    padding-left:33px;
+}
+.hr-css{
+    width:91%;
+}
+.cp-css{
+    padding-left:33px;
+}
+.btn-danger{
+    margin-top:20px;
+    width:100%;
+}
+

@@ -1,0 +1,68 @@
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['']" style="font-weight: bold">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/gioithieu']" style="font-weight: bold">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/lienhe']" style="font-weight: bold">Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-weight: bold">Góp ý</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-weight: bold">Hỏi đáp</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/tracnghiem']" style="font-weight: bold" >Thi trắc nghiệm</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle">
+                        Tài khoản
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" [routerLink]="['/dangky']">Đăng ký</a>
+                        <a class="dropdown-item" [routerLink]="['/dangnhap']">Đăng nhập</a>
+                        <a class="dropdown-item" [routerLink]="['/quenmatkhau']">Quên mật khẩu</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Đăng xuất</a>
+                        <a class="dropdown-item" [routerLink]="['/doimatkhau']">Đổi mật khẩu</a>
+                        <a class="dropdown-item" [routerLink]="['/doitaikhoan']">Đổi tài khoản</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div>
+        <img src="../../assets/aboutus.png" style="width: 100%">
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-8 text-center">
+            <h1 style="padding-left: 30px">Về chúng tôi</h1>
+            <h4 style="text-align:center; padding-top:20px">Chào mừng bạn đến với Online Training!</h4>
+            <p style="font-size:20px">Chúng tôi muốn giới thiệu cho bạn một chút về chúng tôi – chúng tôi là ai, chúng
+                tôi làm gì và những gì
+                là quan trọng đối với chúng tôi.</p><br>
+        </div>
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item"><i class="fas fa-th-list">DANH MỤC MÔN HỌC</i></li>
+                <li class="list-group-item">Lập trình Android nâng cao</li>
+                <li class="list-group-item">Cơ sở dữ liệu</li>
+                <li class="list-group-item">SQL Sever</li>
+                <li class="list-group-item">Internet Marketing</li>
+                <li class="list-group-item">Lập trình hướng đối tượng với Java</li>
+                <li class="list-group-item">Lập trình PHP</li>
+                <li class="list-group-item">Điện toán đám mây</li>
+                <li class="list-group-item">Lập trình Android cơ bản</li>
+                <li class="list-group-item">Lập trình game 2D</li>
+            </ul>
+        </div>
+    </div>
+</div>
