@@ -12,5 +12,21 @@
 .dropdown:hover .dropdown-content{
     display:block;
 }
+.card-1{
+    text-align: center;
+}
+.card-header-1{
+    width: 25%;
+    height: 20%;
+}
+.pagination{
+    margin-left: 20%;
+    margin-top:5%;
+}
+.card-body-css{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #bfcf9f;
+}
 
 

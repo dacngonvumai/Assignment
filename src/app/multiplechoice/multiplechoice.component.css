@@ -12,5 +12,11 @@
 .dropdown:hover .dropdown-content{
     display:block;
 }
-
-
+.btn-primary{
+    margin-left: 70%;
+    width: 15%;
+}
+.pagination-css{
+    margin-left: 40%;
+    margin-top: 1%;
+}

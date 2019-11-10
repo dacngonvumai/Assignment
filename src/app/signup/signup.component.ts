@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {HttpClient} from '@angular/common/http';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
@@ -10,6 +10,8 @@ export class SignupComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
+  
 }

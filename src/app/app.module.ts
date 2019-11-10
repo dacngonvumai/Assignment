@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
-
 import { RouterModule } from '@angular/router'
+import { HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import {NgxPaginationModule} from 'ngx-pagination';
+
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './home/home.component'; 
 import { IntroduceComponent } from './introduce/introduce.component';
 import { ContactComponent } from './contact/contact.component';
 import { SigninComponent } from './signin/signin.component';
@@ -28,10 +29,12 @@ import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.compone
     ChangeaccountComponent,
     MultiplechoiceComponent,
     ForgetpasswordComponent,
-
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    FormsModule,
+      NgxPaginationModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'dangnhap', component: SigninComponent },
@@ -41,10 +44,9 @@ import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.compone
       { path: 'gioithieu', component: IntroduceComponent },
       { path: 'lienhe', component: ContactComponent },
       { path: 'quenmatkhau', component: ForgetpasswordComponent },
-      { path: 'tracnghiem', component: MultiplechoiceComponent },
-
+      { path: 'tracnghiem/:cid', component: MultiplechoiceComponent },
     ]),
-
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
